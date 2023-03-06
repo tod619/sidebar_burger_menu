@@ -19,3 +19,21 @@ body {
                 url(images/bg.jpg) center no-repeat;
     background-size: cover;
 }
+
+.hamburger-menu {
+    width: 35px;
+    height: 30px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: chocolate;
+}
